@@ -1,0 +1,92 @@
+html{
+    height: 100%;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}
+
+p {
+    font-family: 'Franklin Gothic Medium';
+    font-size: 20px;
+  }
+
+  .colored-span {
+    color: red;
+  }
+
+  .inputbox {
+    margin: 20px;
+  }
+  
+  .inputbox input {
+    padding: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .inputbox span {
+    color: goldenrod; 
+    font-style: italic;
+  }  
+
+  .navbar {
+    color: yellow;
+    
+  }
+
+  .right-align {
+    text-align: right; /* Align the content to the right */
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 20;
+    padding: 0;
+  }
+  
+  li {
+     list-style: none;
+    display: inline;
+    margin: 0 20px;
+  }
+
+  body {
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(Images/Background2.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+
+ a:link {
+  color: purple; /* Color for unvisited links */
+     }
+
+    a:visited {
+    color: yellowgreen; /* Color for visited links */
+       }
+
+       a:hover {
+    color: red; /* Color for links when hovered */
+       }
+
+       a:active {
+    color: yellow; /* Color for active links (when clicked) */
+      }
+
+  .inputbox,
+.btn_container,
+.result {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.result #result1 {
+  color: goldenrod; 
+}
+.result #result2 {
+  color: goldenrod; 
+}
+
+.result #result3 {
+  color: goldenrod; 
+}
