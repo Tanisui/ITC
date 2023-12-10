@@ -5,6 +5,7 @@ html{
 h1 {
     color: white;
     text-align: center;
+    
 }
 
 p {
@@ -58,19 +59,19 @@ p {
   }
 
  a:link {
-  color: purple; /* Color for unvisited links */
+  color: purple; 
      }
 
     a:visited {
-    color: yellowgreen; /* Color for visited links */
+    color: yellowgreen; 
        }
 
        a:hover {
-    color: red; /* Color for links when hovered */
+    color: red;
        }
 
        a:active {
-    color: yellow; /* Color for active links (when clicked) */
+    color: yellow; 
       }
 
   .inputbox,
@@ -90,3 +91,72 @@ p {
 .result #result3 {
   color: goldenrod; 
 }
+
+#result {
+
+  color: goldenrod; 
+  font-size: 18px; 
+  font-weight: bold;
+}
+
+#sum {
+
+  color: goldenrod; 
+  font-size: 18px; 
+  font-weight: bold;
+}
+
+#resultF{
+  color: goldenrod; 
+  font-size: 18px; 
+  font-weight: bold;
+
+}
+
+label[for="factorial"] {
+  color: navajowhite; 
+  
+}
+
+label[for="input1"] {
+  color: navajowhite;
+  
+}
+
+label[for="average"] {
+  color: navajowhite; 
+  
+}
+
+
+form {
+  text-align: center; 
+  margin: 20px auto; 
+  width: 50%; 
+}
+
+
+form label {
+  display: inline-block;
+  width: 150px;
+  text-align: left;
+  margin-bottom: 5px;
+}
+
+form input[type="number"],
+form button {
+  padding: 8px;
+  margin-bottom: 10px;
+}
+
+
+
+#factorial,#input1,
+#average {
+
+  margin: auto;
+  border: 3px solid goldenrod;
+  padding: 10px;
+  
+}
+
